@@ -182,22 +182,22 @@ function Orp({ setShow }) {
             </Row>
             <h1 className='text-center'>Результаты нашей работы</h1>
             <Row>
-            <Col xs={12} md={6} lg={6}>
-           
+                <Col xs={12} md={6} lg={6}>
+
                     <img
                         className="d-block mt-3 w-100"
                         src={orp}
                         alt="First slide"
                     />
-                    </Col>
-                    <Col xs={12} md={6} lg={6}>
+                </Col>
+                <Col xs={12} md={6} lg={6}>
                     <img
                         className="d-block mt-3 w-100"
                         src={orp2}
                         alt="Second slide"
-                    />                   
-              </Col>
-           
+                    />
+                </Col>
+
             </Row>
             <RunText name={text} />
 

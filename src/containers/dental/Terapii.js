@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
-import { Row, Card, Col, Table, Carousel} from 'react-bootstrap';
+import { Row, Card, Col, Table, Carousel } from 'react-bootstrap';
 import Accordions from '../../components/accrdion/Accordions';
 import './dental.scss'
 import AOS from "aos";
-import imgg from '../../img.aidarov/imgg.jpeg'
+import imgg from '../../img.aidarov/imgg.png'
 import Button1 from '../../Button1';
+import glfoto from '../dental/dental.img/glfoto.png'
 import DentalNavbar from './dentalAppbar/DentalNavbar';
 
 
@@ -43,7 +44,7 @@ function Terapii({ setShow }) {
         }, {
             texts: 'ИСПРАВЛЕНИЕ ПРИКУСА',
             t: '/'
-        },  {
+        }, {
             texts: 'ЛЕЧЕНИЕ ВО СНЕ',
             t: '/'
         }, {
@@ -64,7 +65,7 @@ function Terapii({ setShow }) {
         },
     ]
 
-  
+
     return (
         <>
             <div className={'container aboutClinic '}>
@@ -82,6 +83,9 @@ function Terapii({ setShow }) {
                                 </div>
                             </Col>
                         </Col>
+                        <Col sm={6} xs={12} md={5} >
+                            <img style={{ width: "100%" }} src={glfoto} />
+                        </Col>
                     </Row>
 
                 </div>
@@ -93,7 +97,7 @@ function Terapii({ setShow }) {
                     <Accordions name={data} />
                 </div>
 
-                {/* <div className=' mt-5'>
+                <div className=' mt-5'>
                     <Row>
                         <Col xs={12} md={6} lg={6}>
                             <div data-aos="zoom-in" className='justify-content-evenly text-center' >
@@ -105,19 +109,28 @@ function Terapii({ setShow }) {
                         </Col>
                         <Col xs={12} md={6} lg={6}>
                             <div data-aos="zoom-in-up" className='justify-content-evenly text_nav '>
-                                <div >
-                                Я хотел, чтобы клиника не напоминала больницу. Поэтому мы создали пространство, которое настраивает<br />
-                                на правильную волну совместного творчества. Если люди приходят лечить зубы как на каторгу, то сложно <br />
-                                ожидать от них высокогоуровня мотивации. Все мы немного нервничаем, если вокруг больничные<br /> белые стены.  где во время ожидания можно <br />послушать музыку, почитать
-                                что-нибудь интересное или выпить чашечку кофе.
-                                </div>
-                                <div className='mt-5'>
-                                    Все пациенты — наши друзья! Те, кто приходит сюда впервые, знакомятся с нами и, пройдя вместе путь <br />от стоматологического кресла до красивой улыбки и здоровых зубов, остаются с нашей командой в прекрасных отношениях.
-                                </div>
+                                <p className="textdoctor">
+                                    Я врач стоматолог общей практики и имплантолог, основатель и главный врач клиники «Dr. Aidarov». Каждый пациент является для нас
+                                    VIP-персоной, поэтому мы предоставляем только лучшее из мира стоматологии
+                                </p>
+                                <p className="textdoctor">
+                                    Всегда стремлюсь быть в авангарде современной стоматологии.
+                                    Стоматология - сфера чрезвычайно высокотехнологичная, поэтому динамика ее развитие превышает динамику
+                                    большинства остальных сфер деятельности.
+                                    И большую часть моей жизни занимает обучение, прохождение курсов и посещение конференций.
+                                </p>
+                                <p className="textdoctor">
+                                    Мы работаем с современными технологиями, которые позволяют не только быстро и качественно создать и
+                                    оценить результат, но и визуализировать процесс для пациента без боли и мучительных процедур.
+                                    Стоматология в настоящее время — это однозначно комфорт и приятное времяпрепровождение!
+                                </p>
+                                <h5 style={{ color: 'white' }}>
+                                    Добро пожаловать в клинику «Dr. Aidarov»!
+                                </h5>
                             </div>
                         </Col>
                     </Row>
-                </div> */}
+                </div>
 
                 <div className='mt-5'>
                     <h1 className='text-center'>Услуги</h1>
@@ -190,10 +203,10 @@ function Terapii({ setShow }) {
                             data-aos-anchor-placement="top-bottom" class="tn-atom text-center pt-2 pb-2">пообщаться с сотрудниками</h3>
                     </Col>
                 </div>
-                
+
             </div>
 
-           
+
         </>
 
     );

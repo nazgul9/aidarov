@@ -7,6 +7,7 @@ import Button1 from '../../../Button1';
 import RunText from '../../../components/runText/RunText';
 import DentalNavbar from '../dentalAppbar/DentalNavbar'
 import AutoVideo from '../../../components/Vidoe/AutoVideo';
+import aidarov from '../../../img.aidarov/aidarov.png'
 import './Appbar.scss'
 
 function Brekety({ setShow }) {
@@ -114,46 +115,24 @@ function Brekety({ setShow }) {
                     </h1>
                     <Col xs={12} md={6}>
 
-                        <h5 className="mt-2" style={{ color: "white", }}>
+                        <h5 className="mt-3" style={{ color: "white", }}>
                             Исправление прикуса с помощью несъёмных<br /> ортодонтических конструкций. Эффективный<br /> способ борьбы с проблемой искривлённых<br /> зубов и неправильного прикуса.
                         </h5>
-                        <Col sm={6} className="mt-2">
-                        <div className="pb-3 pt-3 mt-2 mb-3 div__a">
+                        <Col sm={6} className="mt-3">
+                        <div className=" div__a">
                                     <a href={'tel:+996776000000'} style={{ textDecoration: "none" }} className={'p-2 textinfooter2 rounded'}   > Записаться на прием</a>
                                 </div>
                         </Col>
                     </Col>
-                    <Col xs={12} md={6}>
-                        <AutoVideo />
+                    <Col xs={12} md={6} className="">
+                    <img src="https://una-st.ru/images/service/breket-sistemy.png"/>
                     </Col>
                 </Row>
             </div>
             <RunText name={text} />
             <div className="container">
 
-                {/* <Row className="mt-5">
-                    <Col xs={12} md={6} lg={6}>
-                        <div data-aos="zoom-in" className='justify-content-evenly text-center' >
-                            <img class=" t013__img t-img" src={imgg} imgfield="img" data-tu-max-width="320" data-tu-max-height="320" data-tu-cover="c" alt="" role="presentation">
-                            </img>
-                            <Card.Title className='text_nav'>Доктор Бекмамат</Card.Title>
-                            <span className='text_nav' style={{ fontSize: '14px', lineHeight: '18px' }} data-customstyle="yes">Основатель и<br /> главный врач клиники, <br />стоматолог-ортопед</span>
-                        </div>
-                    </Col>
-                    <Col xs={12} md={6} lg={6}>
-                        <div data-aos="zoom-in-up" className='justify-content-evenly text_nav m-3'>
-                            <div >
-                            Я хотел, чтобы клиника не напоминала больницу. Поэтому мы создали пространство, которое настраивает<br />
-                                на правильную волну совместного творчества. Если люди приходят лечить зубы как на каторгу, то сложно <br />
-                                ожидать от них высокогоуровня мотивации. Все мы немного нервничаем, если вокруг больничные<br /> белые стены.  где во время ожидания можно <br />послушать музыку, почитать
-                                что-нибудь интересное или выпить чашечку кофе.
-                            </div>
-                            <div className='mt-5'>
-                                Все пациенты — наши друзья! Те, кто приходит сюда впервые, знакомятся с нами и, пройдя вместе путь <br />от стоматологического кресла до красивой улыбки и здоровых зубов, остаются с нашей командой в прекрасных отношениях.
-                            </div>
-                        </div>
-                    </Col>
-                </Row> */}
+                
 
 
             </div>

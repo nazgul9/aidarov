@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Card, Col, Row, Table } from 'react-bootstrap';
+import { Card, Carousel, Col, Row, Table } from 'react-bootstrap';
 import RunText from '../../../components/runText/RunText';
 import AOS from 'aos'
 import AutoVideo from '../../../components/Vidoe/AutoVideo';
@@ -36,8 +36,7 @@ function Otbali({ setShow }) {
     const datas = [
         {
             title: "Кабинетное отбеливание",
-            text: `]
-            Самая современная и популярная система отбеливания от Philips.
+            text: `            Самая современная и популярная система отбеливания от Philips.
             Amazing White
             Безопасное отбеливание зубов до 7−9 тонов за одно посещение.
             Внутрикоронковое отбеливание
@@ -90,10 +89,13 @@ function Otbali({ setShow }) {
                         <h4 className=' mt-3' style={{ color: "white" }}>2.Полировка с пастой 500с</h4>
                         <h4 className=' mt-3' style={{ color: "white" }}>3.Air Flow   500с</h4>
 
-                        <div className="text-center"><div className="pb-3 pt-3 mt-2 div__a">
+                        <div className="text-center"><div className="pb-3 pt-3 mt-3 div__a">
                             <a href={'tel:+996776000000'} style={{ textDecoration: "none" }} className={'p-2 textinfooter2 rounded'}   > Записаться на прием</a>
                         </div>
                         </div>
+                    </Col>
+                    <Col xs={12} md={6} >
+                        <img style={{ borderRadius: "50%", marginTop: "20px", width: "330px", height: "330px" }} src='https://gornovosti.ru/media/cache/85/ed/85edcea6953e19adad25464a429cb9e4.jpg' />
                     </Col>
                 </Row>
             </div>
@@ -166,24 +168,52 @@ function Otbali({ setShow }) {
                 <Row> <h1 style={{ color: "#d3bb7e", }}>
                     Виды <br />отбеливания
                 </h1>
-                    <Col xs={12} md={4}>
+                    <h3 style={{ color: "white", marginTop: "20px" }}>Отбеливание с пастой имеются 5 тонов 150$ ( 12150 сом)</h3>
+                  <div className='text-center'>
+                  <Row className='text-center '>
+                        <Col xs={12} md={6} lg={6}  className="mt-3 text-center">
+                            <Carousel className='text-center '>
+                                <Carousel.Item >
+                                    <div className='feedback_div'>
+                                        <img src={'https://static.stomatologclub.ru/uploads/f0/a3/6e3ed0565fccd17dcca68b3bd824.jpg'} >
+                                        </img>
+                                    </div>
+                                </Carousel.Item>
 
-                        <img class=" t013__img t-img" src={''} >
-                        </img>
+                                <Carousel.Item >
+                                    <div className='feedback_div'>
+                                        <img src={'https://zub.ru/upload/iblock/4ea/6416r1wm7xd1knx603uvxztr70w18y43.jpg'} >
+                                        </img>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item >
+                                    <div className='feedback_div'>
+                                        <img src={'https://www.dentoprofile.ru/sites/default/files/amazing-white.jpg'} >
+                                        </img>
+                                    </div>
+                                </Carousel.Item>
+
+                            </Carousel>
+                        </Col>
+
+                    </Row>
+                  </div>
+
+                    {/* <Col xs={12} md={4} className="mt-3">
+
+                       
 
                     </Col>
-                    <Col xs={12} md={4}>
-                        <img class=" t013__img t-img" src={''} >
-                        </img>
+                    <Col xs={12} md={4} className="mt-3">
+                       
 
                     </Col>
-                    <Col xs={12} md={4} >
-                        <img class=" t013__img t-img" src={''} >
-                        </img>
-                    </Col>
+                    <Col xs={12} md={4} className="mt-3">
+                        
+                    </Col> */}
                 </Row>
 
-                <h3 style={{ color: "white", marginTop: "20px" }}>Отбеливание с пастой имеются 5 тонов 150$ ( 12150 сом)</h3>
+
             </div>
             <RunText name={text} />
         </>

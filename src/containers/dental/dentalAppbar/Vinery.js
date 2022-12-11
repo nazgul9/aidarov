@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Card, Col, Row, Carousel } from 'react-bootstrap';
 import RunText from '../../../components/runText/RunText';
 import AOS from 'aos'
 import AutoVideo from '../../../components/Vidoe/AutoVideo';
@@ -9,6 +9,8 @@ import './Appbar.scss'
 import Button1 from '../../../Button1';
 import fonviner from '../dental.img/fonviner.png'
 import DentalNavbar from '../dentalAppbar/DentalNavbar'
+import vinery1 from '../dental.img/vinery1.jpg'
+
 
 
 
@@ -45,6 +47,20 @@ function Vinery({ setShow }) {
         }, {
             texts: ' БЕЗ БОЛИ',
             t: '/'
+        },
+    ]
+    const feedback = [
+        {
+            img: `${vinery1}`,
+            name: "Пациенту установлено 10 единиц керамических виниров цвета BL3! Этот оттенок самый приближённый к натуральному белому цвету! Без резких переходов, с плавной прозрачностью режущего края!",
+            text: "",
+
+        },
+        {
+            img: `https://elix-clinic.ru/uploads/images/lumineers/thumbnail/lumineers_01-t848x485.jpg`,
+            name: "Улыбка выполнена с помощью 24 керамических виниров, цвет BL2, защита зубов от дальнейшего разрушения",
+            text: "",
+
         },
     ]
     return (
@@ -110,7 +126,67 @@ function Vinery({ setShow }) {
                             </div>
                         </Col>
                     </Col>
+                </Row>
+            </div>
 
+            <Row>
+                <h1 className='text-center m-3'>Какие проблемы решают виниры?</h1>
+                <Col xs={12} md={4} >
+                    <h3 data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" class="tn-atom text-center  p-2 m-2">01</h3>
+                    <p style={{ color: "white" }} className="text-center p-2 m-2">Стираемость зубов и повышенную чувствительность эмали</p>
+
+                </Col>
+                <Col xs={12} md={4} >
+                    <h3 data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" class="tn-atom text-center  p-2 m-2">02</h3>
+                    <p style={{ color: "white" }} className="text-center p-2 m-2">Неровный зубной ряд</p>
+                </Col>
+                <Col xs={12} md={4} >
+                    <h3 data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" class="tn-atom text-center  p-2 m-2">03</h3>
+                    <p style={{ color: "white" }} className="text-center p-2 m-2">Потемнение эмали или наличие пломб, отличающихся по цвету</p>
+                </Col>
+                <Col xs={12} md={4} >
+                    <h3 data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" class="tn-atom text-center  p-2 m-2">04</h3>
+                    <p style={{ color: "white" }} className="text-center p-2 m-2">Неправильную форму, сколы и трещины на зубах</p>
+
+                </Col>
+                <Col xs={12} md={4} >
+                    <h3 data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" class="tn-atom text-center  p-2 m-2">05</h3>
+                    <p style={{ color: "white" }} className="text-center p-2 m-2">Исправление прикуса сразу на винирах</p>
+                </Col>
+            </Row>
+            <div>
+                <Row className="justify-content-center mt-5">
+                    <Col xs={12} md={4} lg={6}>
+                        <h1 className='text-center pt-3 pb-3'>Результаты нашей работы (Отзывы)</h1>
+                        <Carousel >
+                            {
+                                feedback.map(e => {
+                                    return (
+                                        <Carousel.Item >
+                                            <div className='feedback_div'>
+                                                
+                                                    <img style={{width:"100%"}}src={e.img} />
+                                               
+                                                
+                                                    <h4>{e.name}</h4>
+                                                    <p>
+                                                        {e.text}
+                                                    </p>
+                                                
+                                            </div>
+
+
+                                        </Carousel.Item>
+                                    )
+                                })
+                            }
+                        </Carousel>
+                    </Col>
                 </Row>
             </div>
         </div>
