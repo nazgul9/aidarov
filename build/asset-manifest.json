@@ -1,19 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e7491d8.css",
-    "main.js": "/static/js/main.12707515.js",
+    "main.css": "/static/css/main.5b784f9f.css",
+    "main.js": "/static/js/main.76332074.js",
     "static/media/video.mp4": "/static/media/video.54fd0213ae66188e48ed.mp4",
     "static/media/Aidarov.png": "/static/media/Aidarov.40d6a2220f269c90ddbc.png",
     "static/media/lechenie.png": "/static/media/lechenie.dc9fa8ef4d0bed0046bb.png",
     "static/media/konsultasya.png": "/static/media/konsultasya.9e75e9144f3a0894fd85.png",
+    "static/media/fonviner.png": "/static/media/fonviner.a120cf50dedce9e19ba4.png",
+    "static/media/Aidarovs.png": "/static/media/Aidarovs.eb8faee54d674673b082.png",
+    "static/media/imgg.png": "/static/media/imgg.f8f89a975b666cf7b1ca.png",
+    "static/media/foto.jpg": "/static/media/foto.5f99ff41b58448455524.jpg",
+    "static/media/glfoto.png": "/static/media/glfoto.959c2eb12fc3c7c67eaf.png",
+    "static/media/stiff1.jpg": "/static/media/stiff1.f351387395245a18e100.jpg",
+    "static/media/orp2.jpg": "/static/media/orp2.59ac2dd2367f8e14f0ee.jpg",
+    "static/media/ftiff2.jpg": "/static/media/ftiff2.2c0ecc17b1022be73161.jpg",
+    "static/media/orp.jpg": "/static/media/orp.117c4905934f2849a473.jpg",
     "static/media/patient1.jpg": "/static/media/patient1.2a1c6168c1688500c2f8.jpg",
+    "static/media/vinery1.jpg": "/static/media/vinery1.6a1f11cb88655382bc72.jpg",
     "static/media/doctor.png": "/static/media/doctor.9a0148c7937d90fc3df7.png",
+    "static/media/aidarov.png": "/static/media/aidarov.f8c01a03e404d0186b1b.png",
     "static/media/imgg.jpeg": "/static/media/imgg.9fb30efcc21c9c19d649.jpeg",
     "static/media/patient2.jpg": "/static/media/patient2.1a97490418493f33d13f.jpg",
-    "static/media/aidarovs.jpg": "/static/media/aidarovs.f5ba0e09b49ca72a5b5b.jpg",
+    "static/media/implants.png": "/static/media/implants.81e2106bd9eb6cccaa8f.png",
     "static/media/terapiia.png": "/static/media/terapiia.783305a3f5c6c7b80fd2.png",
     "static/media/patient5.jpg": "/static/media/patient5.9f4c42a7c2cb1029c443.jpg",
     "static/media/hhh.jpeg": "/static/media/hhh.cd4da257c4745d185852.jpeg",
+    "static/media/glfoto.jpg": "/static/media/glfoto.5de52913ee9daf9a55c1.jpg",
     "static/media/result31.jpg": "/static/media/result31.b9e6dc3aa019f3c035b8.jpg",
     "static/media/elainery.jpg": "/static/media/elainery.f6ff379b1c8849e4f5c0.jpg",
     "static/media/result11.jpg": "/static/media/result11.491f760b52631effbaa8.jpg",
@@ -26,11 +38,11 @@
     "static/media/logo.png": "/static/media/logo.5aa9f4bc39bd19aeb8f5.png",
     "static/media/viniry.jpg": "/static/media/viniry.889eb7c06d4ac571c64a.jpg",
     "index.html": "/index.html",
-    "main.9e7491d8.css.map": "/static/css/main.9e7491d8.css.map",
-    "main.12707515.js.map": "/static/js/main.12707515.js.map"
+    "main.5b784f9f.css.map": "/static/css/main.5b784f9f.css.map",
+    "main.76332074.js.map": "/static/js/main.76332074.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e7491d8.css",
-    "static/js/main.12707515.js"
+    "static/css/main.5b784f9f.css",
+    "static/js/main.76332074.js"
   ]
 }

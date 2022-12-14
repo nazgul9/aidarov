@@ -292,7 +292,8 @@ function MainContainers({ setShow }) {
                                     <Card.Img className=' images_item ' variant="top" src='https://imgtest.mir24.tv/uploaded/images/crops/2022/February/870x489_0x417_detail_crop_20220225174534_fd6eef58_d8f986c597b46d9003f9449f1b5501f6e9f0b74d0859ef4d3c4165341aa8e638.jpg' />
                                 </div>
                             </a>
-                        </Col>   </Row>
+                        </Col>  
+                         </Row>
                     <Col>
                         <Table striped bordered hover variant='dark' >
                             <thead>

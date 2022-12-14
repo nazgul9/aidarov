@@ -198,19 +198,6 @@ function Otbali({ setShow }) {
 
                     </Row>
                   </div>
-
-                    {/* <Col xs={12} md={4} className="mt-3">
-
-                       
-
-                    </Col>
-                    <Col xs={12} md={4} className="mt-3">
-                       
-
-                    </Col>
-                    <Col xs={12} md={4} className="mt-3">
-                        
-                    </Col> */}
                 </Row>
 
 
